@@ -1,0 +1,59 @@
+# Large experiment outputs
+/artifacts/
+
+# Generated development runs
+**/runs/
+**/tmp/
+**/adapter_gate/
+**/adapter_gate_offline*/
+**/secret_header*
+
+# Credentials and certificates
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*credentials*
+*secret*
+
+# Python environments
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Datasets and model binaries
+*.csv
+*.parquet
+*.npy
+*.npz
+*.pkl
+*.joblib
+*.pt
+*.pth
+*.onnx
+
+# Logs
+*.log
+*.stdout
+*.stderr
+
+# Archives and video
+*.zip
+*.tar
+*.gz
+*.mp4
+
+# CMake generated files
+**/build/
+**/CMakeFiles/
+**/CMakeCache.txt
+**/cmake_install.cmake
+**/CTestTestfile.cmake
+**/Makefile
+
+# Generated experiment snapshots
+/development/
